@@ -1,0 +1,17 @@
+--> Docs Link: https://go.dev/doc/
+
+--> Go Language: It's a fast, statically typed, compiled language that feels like a dynamically
+    typed, interpreted language.
+----> It gets converted in machine code in one go that not like line by line.
+--> Variable type gets checked before run time by the compiler, so type errors are picked
+    up earlier.
+--> It is a strongly typed language means variable type cannot be changed after they have been
+    declared.
+--> It can be used in building web apps, rest api and cloud services.
+--> It has a built in testing feature in its standard library.
+--> It is an object oriented language but there is no concept of classes and objects, instead 
+    it uses custom types and interfaces.
+
+--> To run a code "go run file_name.go"
+
+--> 
