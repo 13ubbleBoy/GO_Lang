@@ -1,0 +1,7 @@
+--> A struct in Go defines a blueprint for creating complex data types. It groups together
+    fields that may have different types, similar to how a class works in object-oriented
+    languages, but with fewer features.
+
+--> A struct itself is a data type.
+--> An instance of a struct can be called a variable.
+--> When methods are attached, the instance can behave like an object.

@@ -1,5 +1,8 @@
 --> Docs Link: https://go.dev/doc/
 
+--> To run a file, go to the current directory and type
+    % "go run main.go"
+
 --> Go Language: It's a fast, statically typed, compiled language that feels like a dynamically
     typed, interpreted language.
 ----> It gets converted in machine code in one go that not like line by line.
@@ -14,4 +17,24 @@
 
 --> To run a code "go run file_name.go"
 
---> 
+--> ':=' cannot be used outside of a function.
+
+--> Go is a pass-by-value language in every case. This means that when a function is called, a copy
+    of the value of the argument is passed to the function, rather than the original value itself.
+    But when we pass a pointer to a function, the pointer itself is copied, but it still points to
+    the original memory address. This allows you to modify the original value.
+
+--> Slices, Maps, Pointers and Channels
+    These are reference types in Go, so when they are passed to a function, a copy of the reference
+    / address (not the actual data) is made. This means the function can modify the underlying data.
+    But the reference itself is passed by value.
+
+    -> Pass by value  |      -> Pass by reference
+    string            |      slice
+    int               |      map
+    float             |      pointers
+    boolean           |      channels
+    array             |      functions (when we pass function reference to another function)
+    struct            |
+
+--> A string in golang is always in double quotes "". Single quotes '' will give an error.

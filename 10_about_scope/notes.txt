@@ -1,0 +1,2 @@
+--> To run the project, go into the current directory any type
+    % "go run main.go file_name.go"
