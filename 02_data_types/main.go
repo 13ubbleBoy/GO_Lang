@@ -75,7 +75,7 @@ func main() {
 	fmt.Println(age6, "\n")
 
 	// decimal numbers
-	var price1 float32 = 12.5 // here we have to specify if its float32 or float64
+	var price1 float32 = 12.5 // we use this method when we need a empty vaieble of a particular type
 	var price2 = 13.28747
 	price3 := 31.389634
 	fmt.Println(price1, price2, price3, "\n")

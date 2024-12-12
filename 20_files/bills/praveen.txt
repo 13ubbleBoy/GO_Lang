@@ -1,0 +1,5 @@
+Bill breakdown: 
+tea:                 ...₹20.00
+patiz:               ...₹30.00
+tip:                 ...₹20.00
+Total:               ...₹70.00
